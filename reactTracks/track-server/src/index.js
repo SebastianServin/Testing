@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(authRoutes);
 app.use(trackRoutes);
 
-const mongoUri = 'mongodb+srv://admin:%23Magicos1@cluster0.bpa8j.mongodb.net/<dbname>?retryWrites=true&w=majority';
+const mongoUri = '  MONGO INSTANCE LINK';
 mongoose.connect(mongoUri, {
     useNewUrlParser: true,
     useCreateIndex: true
